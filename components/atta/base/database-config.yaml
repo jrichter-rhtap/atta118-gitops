@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: atta-database-config
+data:
+  VECTORDB_HOST: "atta-database"
+  VECTORDB_PORT: ""
